@@ -2,7 +2,7 @@ import { createSlice, PayloadAction, configureStore, combineReducers } from '@re
 import { Pomodoro } from './type'
 
 const POMODORO_TIME = 25
-const SHORT_BREAK_TIME = 0.1
+const SHORT_BREAK_TIME = 5
 const LONG_BREAK_TIME = 15
 
 const initialState: Pomodoro = {
